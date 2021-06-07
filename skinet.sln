@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{9851D9CD-94EC-4D07-951D-ECFC7A30AD1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{9851D9CD-94EC-4D07-951D-ECFC7A30AD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{CC5F2177-A19E-4D34-AF16-064828760709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{CC5F2177-A19E-4D34-AF16-064828760709}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrasturuture", "Infrasturuture\Infrasturuture.csproj", "{6D3DC2D5-9E56-47E2-9633-C677D029ACB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{6D3DC2D5-9E56-47E2-9633-C677D029ACB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9851D9CD-94EC-4D07-951D-ECFC7A30AD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +55,11 @@ Global
 		{6D3DC2D5-9E56-47E2-9633-C677D029ACB6}.Release|x64.Build.0 = Release|Any CPU
 		{6D3DC2D5-9E56-47E2-9633-C677D029ACB6}.Release|x86.ActiveCfg = Release|Any CPU
 		{6D3DC2D5-9E56-47E2-9633-C677D029ACB6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BACD916F-539E-41B4-B9C9-07604981B429}
 	EndGlobalSection
 EndGlobal
